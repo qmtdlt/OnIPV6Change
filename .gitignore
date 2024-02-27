@@ -1,0 +1,22 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/code/.vs/OnIPv6ChangeSend/FileContentIndex/05317661-f52e-4996-a12c-72b6a5f86680.vsidx
+/code/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/code/obj/Debug/net6.0/OnIPv6ChangeSend.AssemblyInfo.cs
+/code/obj/Debug/net6.0/OnIPv6ChangeSend.AssemblyInfoInputs.cache
+/code/obj/Debug/net6.0/OnIPv6ChangeSend.assets.cache
+/code/obj/Debug/net6.0/OnIPv6ChangeSend.csproj.AssemblyReference.cache
+/code/obj/Debug/net6.0/OnIPv6ChangeSend.GeneratedMSBuildEditorConfig.editorconfig
+/code/obj/Debug/net6.0/OnIPv6ChangeSend.GlobalUsings.g.cs
+/code/obj/OnIPv6ChangeSend.csproj.nuget.dgspec.json
+/code/obj/OnIPv6ChangeSend.csproj.nuget.g.props
+/code/obj/OnIPv6ChangeSend.csproj.nuget.g.targets
+/code/obj/project.assets.json
+/code/obj/project.nuget.cache
+/code/Properties/PublishProfiles/FolderProfile.pubxml
+/code/Properties/PublishProfiles/FolderProfile.pubxml.user
+/code/OnIPv6ChangeSend.csproj.user
+/code/.vs/OnIPv6ChangeSend/v17/.suo
+*.vsidx

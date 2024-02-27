@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Copy to Clipboard</title>
+    <style>
+        .copy-container {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin: 20px;
+        }
+
+        .copybtn {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="copy-container">
+    <span id="textToCopy">asdadfadfasfdasdf</span>
+    <input type="button" class="copybtn" onclick="copyToClipboard()" value="copy"></input>
+</div>
+
+<script>
+    function copyToClipboard() {
+        var text = document.getElementById('textToCopy').innerText;
+        var elem = document.createElement("textarea");
+        document.body.appendChild(elem);
+        elem.value = text;
+        elem.select();
+        document.execCommand("copy");
+        document.body.removeChild(elem);
+        alert(text + "已复制");
+    }
+</script>
+
+</body>
+</html>
