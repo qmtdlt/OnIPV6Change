@@ -10,7 +10,7 @@ Orm框架：Freesql
 
 折腾家里网络，淘宝花钱搞了光猫桥接，然后有一台旧笔记本，安装了centos，想使用ipv6公网ip访问笔记本，为了应对ipv6偶尔变化，写了这个工具
 
-# 发送邮件相关记录在了Nas Note Station
+# 发送邮件相关记录在了Nas Note Station，下方链接访问需要支持ipv6
 [FluentEmail qq邮箱相关配置](http://qmtdlt.synology.me:5000/ns/sharing/qSU7s)
 
 # 尾巴
